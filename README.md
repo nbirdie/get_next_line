@@ -9,6 +9,7 @@
 7. [Теория по static variables](https://en.wikipedia.org/wiki/Static_variable)
 8. [Про EOF](https://habr.com/ru/company/ruvds/blog/491700/#:~:text=EOF%20%E2%80%94%20%D1%8D%D1%82%D0%BE%20%D0%BD%D0%B5%20%D1%81%D0%B8%D0%BC%D0%B2%D0%BE%D0%BB.,%D1%84%D0%B0%D0%B9%D0%BB%D0%BE%D0%B2%20%D0%BD%D0%B5%D1%82%20%D0%BD%D0%B5%D0%BA%D0%BE%D0%B5%D0%B3%D0%BE%20%D0%BE%D1%81%D0%BE%D0%B1%D0%BE%D0%B3%D0%BE%20%D1%81%D0%B8%D0%BC%D0%B2%D0%BE%D0%BB%D0%B0.)  
 9. [Теория по Valgrind](http://alexott.net/ru/linux/valgrind/Valgrind.html)
+10. [Шпаргалка по Markdown](http://bustep.ru/markdown/shpargalka-po-markdown.html)  
 
 ## Расшифровка результатов Valgrind  
 При окончании работы программы valgrind выдает сводную таблицу, описывающую количество найденных ошибок, а также выделение памяти в программе, например:
