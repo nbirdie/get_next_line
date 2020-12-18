@@ -37,7 +37,7 @@ Definitely lost означает, что valgrind нашел область па
 
 Между двумя этими таблицами выдаются данные по каждой из найденных ошибок работы с памятью, вида:  
 
-<756 bytes in 27 blocks are definitely lost in loss record 1,077 of 1,267  >
+> 756 bytes in 27 blocks are definitely lost in loss record 1,077 of 1,267  
    at 0x4022AB8: malloc (vg_replace_malloc.c:207)  
    by 0x7C485DA: __libc_res_nsend (res_send.c:425)  
    by 0x7C47276: __libc_res_nquery (res_query.c:171)  
