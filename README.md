@@ -11,6 +11,22 @@
 9. [Теория по Valgrind](http://alexott.net/ru/linux/valgrind/Valgrind.html)
 10. [Шпаргалка по Markdown](http://bustep.ru/markdown/shpargalka-po-markdown.html)  
 
+## При проблемах с установкой Valgrind  
+Появилась глобальная проблема с установкой valgrind
+Хочу всех успокоить - решение есть!
+Вероятно вы уже поставили HomeBrew, если нет, то сделайте это:
+```
+curl -fsSL https://rawgit.com/kube/42homebrew/master/install.sh | zsh
+```
+Далее подключаем репозиторий:
+```
+brew tap LouisBrunner/valgrind
+```
+И устанавливаем valgrind:
+```
+brew install --HEAD LouisBrunner/valgrind/valgrind
+```
+
 ## Расшифровка результатов Valgrind  
 При окончании работы программы valgrind выдает сводную таблицу, описывающую количество найденных ошибок, а также выделение памяти в программе, например:
 ```
